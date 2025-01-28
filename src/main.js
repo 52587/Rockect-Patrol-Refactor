@@ -12,4 +12,7 @@ let borderUISize = game.config.height / 15
 let borderPadding = borderUISize / 3
 
 // reserve keyboard bindings
-let keyFIRE, keyRESET, keyLEFT, keyRIGHT
+let keyFIRE, keyRESET, keyLEFT, keyRIGHT, keyA, keyD, keyW, keyUP
+
+// Add a global variable for the high score
+let highScore = 0;
